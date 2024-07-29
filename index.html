@@ -2,11 +2,35 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: {{projectTitle}}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Device</title>
   </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-
+  <body class="page">
+    <header class="page__header header">
+      <div class="header__search"></div>
+      <div class="header__user-nav"></div>
+      <div class="header__catalog"></div>
+      <nav class="header__nav nav"></nav>
+    </header>
+    <main class="pade__main main">
+      <div class="main__slider slider">
+        <section class="slider__item"></section>
+        <section class="slider__item"></section>
+        <section class="slider__item"></section>
+      </div>
+      <section class="main__positions positions"></section>
+      <section class="main__services services"></section>
+      <section class="main__delivery delivery"></section>
+      <div class="main__about-us about-us">
+        <section class="about-us__about about"></section>
+        <section class="about-us__contacts contacts"></section>
+      </div>
+      <section class="main__subscription subscription"></section>
+    </main>
+    <footer class="main__footer footer">
+      <!-- <span class="footer__adress"></span> -->
+      <section class="footer__nav"></section>
+      <!-- <span class="footer__phone"></span> -->
+    </footer>
   </body>
 </html>
